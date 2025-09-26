@@ -1,5 +1,5 @@
 name: run shell commands
-on: [push, fork]
+on: push
 
 jobs:
   run-spark-submit-commands:
