@@ -19,9 +19,4 @@ jobs:
         with:
           spark-version: '3.5.3'
           hadoop-version: '3'
-
-<<<<<<< HEAD
       - run: spark-submit app.py
-=======
-      - run: spark-submit --version
->>>>>>> 1e0e83be7becfa5998dc30f10a98160352e48d1d
